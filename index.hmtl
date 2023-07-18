@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liam Portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- Header -->
+    <!-- End Header -->
 
-    <section id="home">
-        <header>
-            <a href="#"><img src="images/logo.png" alt=""></a>
-            <ul id="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </header>
-         <h1>This Is Home</h1>
-    </section>
-    <section id="about"><h1>This Is About</h1></section>
-    <section id="product"><h1>This Is Product</h1></section>
-    <section id="pricing"><h1>This Is Pricing</h1></section>
-    <section id="contact"><h1>This Is Contact</h1></section>
+    <!-- Hero Section -->
+    <!-- End Hero Section -->
 
-</body>
+    <!-- About Me Section -->
+    <!-- End About Me Section -->
+
+    <!-- Projects Section -->
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <!-- End Contact Section -->
+
+	<script src="index.js"></script>
+  </body>
 
 </html>
 
