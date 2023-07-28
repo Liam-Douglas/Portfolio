@@ -7,25 +7,109 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Liam Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;family=Montserrat:wght@500;800;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
-    <!-- Header -->
+    <main>
+      <!-- Header -->
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="#">Liam Douglas</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a href="mailto:liam.douglas@outlook.com.au" class="action_btn">Say Hey</a>
+
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="mailto:liam.douglas@outlook.com.au" class="action_btn01">Say Hey</a></li>
+        </div>
+      </div>
+    </header>
+
+    <!-- navbar button script -->
+    <script>
+      const toggle_btn = document.querySelector('.toggle_btn')
+      const toggle_btnIcon = document.querySelector('.toggle_btn i')
+      const dropdown_menu = document.querySelector('.dropdown_menu')
+
+      toggle_btn.onclick = function () {
+        dropdown_menu.classList.toggle('open')
+        const isOpen = dropdown_menu.classList.contains('open')
+
+        toggle_btnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+      }
+    </script>
     <!-- End Header -->
-
     <!-- Hero Section -->
+    <section class="hero_section">
+      <div class="title01">
+        <p class="subtext">Hey! my name is</p>
+        <h1 class="hero_name">liam douglas</h1>
+      </div>
+      <div class="title02">
+        <p class="subtext">and i'm a </p>
+        <h1 class="hero_title">software engineer</h1>
+      </div>
+      <p class="hero_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla tempus eros, et consectetur metus mattis 
+        pulvinar. Aliquam erat volutpat. Nulla imperdiet ligula sed nulla commodo iaculis. Aliquam erat volutpat. Mauris lobortis 
+        eros diam, vel lobortis ipsum lacinia in. Vivamus iaculis neque eros, at mollis quam molestie in. Etiam id dolor non urna 
+        tempus rhoncus.</p>
+      <div class="hero_button_section">
+        <a href="#" class="hero_button">my work</a>
+      </div>
+
+
+
+    </section>
     <!-- End Hero Section -->
-
     <!-- About Me Section -->
-    <!-- End About Me Section -->
+    <section class="about_section">
+      <div class="title01">
+        <p class="subtext">get to know me</p>
+        <h1 class="hero_name">about me</h1>
+      </div>
+      <p>About Page</p>
 
+    </section>
+    <!-- End About Me Section -->
     <!-- Projects Section -->
+    <section class="project_section">
+      <div class="title01">
+        <p class="subtext">whats your expereince</p>
+        <h1 class="hero_name">expereince</h1>
+      </div>
+      <p>About Page</p>
+
+    </section>
+    <p>Project Page</p>
     <!-- End Projects Section -->
 
     <!-- Contact Section -->
+    <p>Contact Page</p>
     <!-- End Contact Section -->
 
-	<script src="index.js"></script>
+    </main>
+    
+
+	
   </body>
 
 </html>
