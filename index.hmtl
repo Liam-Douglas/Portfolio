@@ -22,6 +22,7 @@
         <ul class="links">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
+          <li><a href="#">experience</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -35,6 +36,7 @@
         <div class="dropdown_menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
+          <li><a href="#">experience</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="mailto:liam.douglas@outlook.com.au" class="action_btn01">Say Hey</a></li>
@@ -62,55 +64,75 @@
     <section class="hero_section">
       <div class="title01">
         <p class="subtext">Hey! my name is</p>
-        <h1 class="hero_name">liam douglas</h1>
+        <h1 class="section_title">liam douglas</h1>
       </div>
       <div class="title02">
         <p class="subtext">and i'm a </p>
-        <h1 class="hero_title">software engineer</h1>
+        <h1 class="section_title">software architect</h1>
       </div>
-      <p class="hero_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla tempus eros, et consectetur metus mattis 
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla tempus eros, et consectetur metus mattis 
         pulvinar. Aliquam erat volutpat. Nulla imperdiet ligula sed nulla commodo iaculis. Aliquam erat volutpat. Mauris lobortis 
         eros diam, vel lobortis ipsum lacinia in. Vivamus iaculis neque eros, at mollis quam molestie in. Etiam id dolor non urna 
         tempus rhoncus.</p>
       <div class="hero_button_section">
         <a href="#" class="hero_button">my work</a>
       </div>
-
-
-
     </section>
     <!-- End Hero Section -->
     <!-- About Me Section -->
     <section class="about_section">
       <div class="title01">
         <p class="subtext">get to know me</p>
-        <h1 class="hero_name">about me</h1>
+        <h1 class="section_title">about me</h1>
       </div>
-      <p>About Page</p>
-
+      <div>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla tempus eros, et consectetur metus mattis 
+          pulvinar. Aliquam erat volutpat. Nulla imperdiet ligula sed nulla commodo iaculis. Aliquam erat volutpat. Mauris lobortis 
+          eros diam, vel lobortis ipsum lacinia in. Vivamus iaculis neque eros, at mollis quam molestie in. Etiam id dolor non urna 
+          tempus rhoncus.</p>
+      </div>
+      <div class="button_section">
+        <p>add button to CV here</p>
+      </div>
+      <div class="about_icon">
+        <p>add icons here (linkiden, github, etc)</p>
+      </div>
     </section>
     <!-- End About Me Section -->
+    <!-- Experience -->
+    <section class="experience_section">
+      <div class="title01">
+        <p class="subtext">whats your expereince</p>
+        <h1 class="section_title">my expereince</h1>
+      </div>
+      <p>expereince page</p>
+    </section>
+    <!-- End Experience -->
     <!-- Projects Section -->
     <section class="project_section">
       <div class="title01">
-        <p class="subtext">whats your expereince</p>
-        <h1 class="hero_name">expereince</h1>
+        <p class="subtext">what keeping you busy?</p>
+        <h1 class="section_title">main projects</h1>
       </div>
-      <p>About Page</p>
-
+      <p>Project Page</p>
     </section>
-    <p>Project Page</p>
     <!-- End Projects Section -->
+    <!-- Small porjects -->
+    <section class="small_project_section">
+      <div class="title01">
+        <p class="subtext">other projects</p>
+        <h1 class="section_title">small projects</h1>
+      </div>
+      <p>small Project Page</p>
+    </section>
+
+    <!-- End Small projects-->
 
     <!-- Contact Section -->
     <p>Contact Page</p>
     <!-- End Contact Section -->
 
     </main>
-    
-
-	
   </body>
-
 </html>
 

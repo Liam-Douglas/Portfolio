@@ -68,27 +68,27 @@ header {
     display: none;
 }
 
-.action_btn {
+.navbar .action_btn {
     color: #fff;
     border-radius: 1.2rem;
     border-width: 2px;
     border: solid;
     --tw-border-opacity: 1;
-    border-color: rgb(250 209 97 / var(--tw-border-opacity));
-    padding: 16px 24px;
+    border-color: rgb(252 189 16 / var(--tw-border-opacity));
+    padding: 12px 18px;
     font-size: 1.6rem;
     font-weight: 800;
     text-transform: uppercase;
     transition: scale 0.2 ease;
 }
 
-.action_btn:hover {
+.navbar .action_btn:hover {
     scale: 1.05;
     color: black;
-    background-color: rgb(250 209 97);
+    background-color: rgb(252, 189, 16);
 }
 
-.action_btn:active {
+.navbar .action_btn:active {
     scale: 0.95;
 }
 
@@ -130,7 +130,7 @@ header {
 }
 
 .dropdown_menu li {
-    padding: 0.7rem;
+    padding: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -154,7 +154,7 @@ header {
     border-width: 2px;
     border: solid;
     --tw-border-opacity: 1;
-    border-color: rgb(250 209 97 / var(--tw-border-opacity));
+    border-color: rgb(252 189 16 / var(--tw-border-opacity));
     padding: 16px 24px;
     font-size: 1.6rem;
     font-weight: 800;
@@ -165,7 +165,7 @@ header {
 .dropdown_menu.open .action_btn01:hover {
     scale: 1.05;
     color: black;
-    background-color: rgb(250 209 97);
+    background-color: rgb(252, 189, 16);
 }
 
 .dropdown_menu.open .action_btn01:active {
@@ -190,14 +190,21 @@ header {
     letter-spacing: .25em;
 }
 
+.section_title {
+    text-transform: uppercase;
+    font-family: Montserrat,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-weight: 900;
+    font-size: 3.2rem;
+}
+/*
 .hero_section h1 {
     text-transform: uppercase;
     font-family: Montserrat,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
     font-weight: 900;
     font-size: 3.2rem;
 }
-
-.hero_section .hero_desc {
+*/
+.hero_section .desc {
     line-height: 1.5;
     font-size: 1.6rem;
     --tw-space-y-reverse: 0;
@@ -208,9 +215,6 @@ header {
 .hero_button_section {
     padding-top: 38px;
     padding-bottom: 38px;
-
-
-
 }
 
 .hero_button {
@@ -219,7 +223,7 @@ header {
     border-width: 2px;
     border: solid;
     --tw-border-opacity: 1;
-    border-color: rgb(250 209 97 / var(--tw-border-opacity));
+    border-color: rgb(252 189 16 / var(--tw-border-opacity));
     padding: 16px 24px;
     font-size: 1.6rem;
     font-weight: 800;
@@ -232,7 +236,7 @@ header {
 .hero_button:hover {
     scale: 1.05;
     color: black;
-    background-color: rgb(250 209 97);
+    background-color: rgb(252, 189, 16);
 }
 
 .hero_button:active {
@@ -240,14 +244,54 @@ header {
 }
 
 /* End Hero page */
-/* About Page */
+/* About section */
 
 .about_section {
     padding-top: 48px;
     padding-bottom: 48px;
 }
 
-/* About Page */
+.about_section .desc {
+    line-height: 1.5;
+    font-size: 1.6rem;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(16px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(16px * var(--tw-space-y-reverse));
+}
+
+/* End About section */
+
+/* Experience */
+.experience_section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.experience_section .title01 {
+    text-align: center;
+}
+/* End Experience */
+
+/* Projects section */
+.project_section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* End Projects section */
+
+/* small project section */
+.small_project_section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.small_project_section .title01 {
+    text-align: center;
+}
+
+/* End small project section */
+
 
 /* Responsive Design */
 
@@ -279,6 +323,15 @@ header {
         font-size: 2.4rem;
     }
 
+    .about_section {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    .section_title {
+        font-size: 6.4rem;
+    }
+
     main {
         padding-left: 48px;
         padding-right: 48px;
@@ -289,11 +342,7 @@ header {
         padding-bottom: 48px;
     }
 
-    .hero_section h1 {
-        font-size: 6.4rem;
-    }
-
-    .hero_section .hero_desc {
+    .hero_section .desc {
         font-size: 2rem;
     }
 
@@ -305,11 +354,24 @@ header {
         padding-top: 160px;
         padding-bottom: 160px;
     }
+
+    .about_section .desc {
+        font-size: 2rem;
+    }
 }
 
 @media(min-width: 768px) {
     .hero_section .subtext {
         font-size: 2rem;
+    }
+
+    .about_section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .section_title {
+        font-size: 5.6rem;
     }
 
     main {
@@ -322,11 +384,7 @@ header {
         padding-bottom: 32px;
     }
 
-    .hero_section h1 {
-        font-size: 5.6rem;
-    }
-
-    .hero_section .hero_desc {
+    .hero_section .desc {
         font-size: 1.8rem;
     }
 
@@ -337,6 +395,10 @@ header {
     .about_section {
         padding-top: 96px;
         padding-bottom: 96px;
+    }
+
+    .about_section .desc {
+        font-size: 1.8rem;
     }
 }
 
